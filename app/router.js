@@ -7,9 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
 
-      this.route(`theStore`, {
-          path: `/`
-        }
-      });
+  this.route(`theStore`);
 
-    export default Router;
+});
+export default Router;
